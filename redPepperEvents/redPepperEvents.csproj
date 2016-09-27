@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -178,15 +179,18 @@
     <Content Include="images\2u4uu.png" />
     <Content Include="images\catering.png" />
     <Content Include="images\corporate.jpg" />
+    <Content Include="images\Corporate_Events.jpg" />
     <Content Include="images\custom.jpg" />
     <Content Include="images\day.jpg" />
     <Content Include="images\deco.png" />
+    <Content Include="images\event-catering1.jpg" />
     <Content Include="images\exquisite.jpg" />
     <Content Include="images\hightea.png" />
     <Content Include="images\Logobig21.jpg" />
     <Content Include="images\night.jpg" />
     <Content Include="images\romantic-design-luxury-wedd.jpg" />
     <Content Include="images\warmer.png" />
+    <Content Include="images\weddingcatering.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />

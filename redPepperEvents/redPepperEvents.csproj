@@ -164,8 +164,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Controllers\Models\AccountViewModels.cs" />
+    <Compile Include="Controllers\Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -178,6 +178,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\2u4uu.png" />
     <Content Include="images\9963726_orig.jpg" />
+    <Content Include="images\about us.jpg" />
     <Content Include="images\catering.png" />
     <Content Include="images\church-wedding-decorations-2.jpg" />
     <Content Include="images\Clear-Wedding-Reception-Tent-Modern-Table-Linens.jpg" />
@@ -214,7 +215,6 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Home\ZeeWaz.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -239,7 +239,6 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Manage.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Catalog.cshtml" />
     <Content Include="Views\Home\Product.cshtml" />
   </ItemGroup>

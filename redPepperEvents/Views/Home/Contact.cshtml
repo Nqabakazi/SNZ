@@ -2,14 +2,25 @@
     ViewBag.Title = "Contact Us";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
 
 <head>
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="~/Content/Site.css" type="text/css">
-    <title>bhjhj</title>
+    <title></title>
 </head>
+<script type="text/javascript">
+    function submit() {
+
+        var name = document.getElementById('name').value
+        var name = document.getElementById('email').value
+
+        alert(" Hello " + name + "we will email you soon at" + email);
+    }
+
+</script>
+
+
 <address>
     117 Hyde lane office Park<br />
     Hyde Park<br />
@@ -17,18 +28,58 @@
     425.555.0100
 </address>
 
-<address>
-    <strong>Telephone:</strong>   <a>(011)-472-9149</a><br />
-    <strong>Fax:</strong> <a>(011)830-2181</a><br />
-    <strong>E-mail:</strong> <a href="http://localhost:64491/Home">redPepperEvents@gmail.com</a><br />
-    <strong>Website:</strong> <a href="http://localhost:64491/Home/">http://localhost:64491/Home/</a>
+<address class="my-address">
+    <B><i><h2>Contact Details</h2></i></B>
+    <table style="width:100%">
+        <tr>
+          
+            <td>
+                <strong>Cell:</strong>
+                <a>071-408-1844 (Zaheerah)</a>
+
+            </td>
+
+            <td>
+                <strong>Cell:</strong>
+                <a>084-605-1925 (Sindiswe)</a>
+
+            </td>
+            <td>
+                <strong>Cell:</strong>
+                <a>061-796-8857 (Nqabagazi)</a>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Zkamaar@jhb.dvt.co.za">Zkamaar@jhb.dvt.co.za</a>
+
+            </td>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Smashinini@jhb.dvt.co.za">Smashinini@jhb.dvt.co.za</a>
+
+            </td
+>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Nhlamvana@jhb.dvt.co.za">Nhlamvana@jhb.dvt.co.za</a>
+
+            </td>
+        </tr>
+        <br/>
+
+        <u><h4>Please enter your details below. We would love to hear from you!</h4>
+
+   </table>
+            <div id="text">
+                <h4 style="display:inline-block;">Name:</h4>
+                <input type="text" id="name" style="height:25px;width:300px; color:black; " /><br />
+                <h4 style="display:inline-block;">Email Address:</h4>
+                <input type="text" id="email"  style="height:25px;width:300px; color:black; " /><br/>
+                <input type="submit" value="Submit" onclick="submit()" style="height:20px; width:120px;"/>
+
+            </div>
+
 </address>
-
-<div id="text">
-    <h4 style="display:inline-block;">Name:</h4>
-    <input type="text" id="name" style="height:25px;width:300px; color:black; "/><br/>
-    <h4 style="display:inline-block;">Email Address:</h4>
-    <input type="text" id="name" style="height:25px;width:300px; color:black; " />
-  
-</div>
-

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/css/Style.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div id="top">
+        <div class="shell">
+            <!-- Header -->
+            <div id="header">
+
+                <div id="navigation">
+                    <ul class="navigation">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "AboutUs", "Home")</li>
+                        <li>@Html.ActionLink("Catalog", "Catalog", "Home")</li>
+                        <li>@Html.ActionLink("Product", "Product", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "ContactUs", "Home")</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fixedfooter">
+
+        <p style="text-align:center">
+          &copy; @DateTime.Now.Year-Created by Ludmiller
+
+        </p>
+
+
+    </div>
+    @RenderBody()
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Catalog";
+    Layout = "~/Views/Shares/_LayoutPage.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/css/Style.css" />
+    <title></title>
+</head>
+<body>
+    <pre>
+    <h2 style="text-align:center">Here are a few pictures from our previous events
+                 to give you a sneak peak of our capabilities...</h2>
+</pre>
+    <div class="w3-content" style="max-width:700px;padding-left:25%">
+
+        <img class="mySlides" src="~/image/catering2.jpg" style="width:70%">
+        <img class="mySlides" src="~/image/catering5.jpg" style="width:70%">
+        <img class="mySlides" src="~/image/food-image 1.jpg" style="width:70%">
+        <img class="mySlides" src="~/image/Pro pic 1.jpg" style="width:70%">
+        <img class="mySlides" src="~/image/Pro pic 2.jpg" style="width:60%">
+        <img class="mySlides" src="~/image/Pro pic 3.jpg" style="width:60%">
+        <img class="mySlides" src="~/image/Pro pic 4.jpg" style="width:60%">
+        <img class="mySlides" src="~/image/Pro pic 5.jpg" style="width:60%">
+        <img class="mySlides" src="~/image/Pro pic 6.jpg" style="width:60%">
+        <img class="mySlides" src="~/image/Starters 1.jpg" style="width:60%">
+        <a class="w3-btn-floating" style="position:absolute;top:50%;left:20%" onclick="plusDivs(-1)">❮</a>
+        <a class="w3-btn-floating" style="position:absolute;top:50%;right:25%" onclick="plusDivs(1)">❯</a>
+
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+</html>

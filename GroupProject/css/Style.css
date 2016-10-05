@@ -1,0 +1,118 @@
+﻿body {
+    font-family:Arial;
+	font-size:19px;
+	line-height:20px;
+	color:grey;
+   /*background-color:dimgray;*/
+   background-image:url('../image/backGround.jpg');
+   background-size:200%;
+}
+.shell {
+     width:980px; 
+     margin:0 auto;
+
+}
+
+#top {
+     height:80px;
+     background-image:url('../image/mint.jpg');
+
+}
+#header {
+    height: 67px;
+}
+#navigation { float:right; white-space:nowrap; }
+#navigation ul{ list-style-type: none; padding-top:30px;}
+#navigation ul li{ float:left; display:inline; border-right:solid 1px #5f5f5f; padding-right:8px; margin-right:8px;}
+#navigation ul li.last{ border-right:0; padding-right:0; margin-right:0;}
+#navigation ul li a{ color:whitesmoke;}
+#navigation ul li a:hover,
+#navigation ul li a.active { color:blue; }
+div#fixedfooter {
+	position:fixed;
+	bottom:0px;
+	left:10px;
+    height:4%;
+	width:100%;
+	color:white;
+    background-image:url('../image/mint.jpg');
+	padding:18px;
+    
+}
+.mySlides{
+    opacity:0.9;
+    filter:alpha(opacity=50);
+
+}
+ img {
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    
+}
+ pre {
+    white-space:pre-wrap;
+}
+ .w3-content{
+padding-left:400px;
+top:60%;
+outline:none;
+
+
+}
+section {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    /*background-color:mintcream;*/
+    outline: none;
+}
+/*.button {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: mintcream;
+  border: none;
+  color:grey;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 20px;
+  transition: 1s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}*/
+
+/*h1 {
+    text-shadow: 2px 2px green;
+}*/
+
+
+ 
+
+
+

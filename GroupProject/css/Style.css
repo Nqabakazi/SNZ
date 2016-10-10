@@ -1,11 +1,11 @@
-﻿body {
+body {
     font-family:Arial;
-	font-size:19px;
-	line-height:20px;
-	color:grey;
-   /*background-color:dimgray;*/
-   background-image:url('../image/backGround.jpg');
-   background-size:200%;
+    font-size:19px;
+    line-height:20px;
+    color:grey;
+    /*background-color:dimgray;*/
+    background-image:url('../image/backGround.jpg');
+    background-size:200%;
 }
 .shell {
      width:980px; 
@@ -66,6 +66,30 @@ section {
     color: black;
     /*background-color:mintcream;*/
     outline: none;
+}
+.table {
+    align-items:flex-end;
+       border-right:ridge;
+          border-style: hidden;
+          padding-right:1em;
+          font-size:small;
+          margin-bottom:200px;
+          
+}
+.Center {
+    font-style:italic;
+    font-size:x-large;
+    text-align:center;
+}
+.bottom{
+    text-align:start;
+    font-style:italic;
+}
+.shell{
+   margin-left:8px;
+    text-align:start;
+    font-style:italic;
+
 }
 /*.button {
   display: inline-block;

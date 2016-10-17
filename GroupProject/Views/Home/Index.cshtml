@@ -1,0 +1,124 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shares/_LayoutPage.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/css/Style.css"/>
+    <title></title>
+
+    <style>
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color:mintcream;
+            border: none;
+            color: black;
+            opacity:0.9;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            height:90px;
+            width: 400px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+                .button span:after {
+                    content: '»';
+                    position: absolute;
+                    opacity: 0;
+                    top: 0;
+                    right: -20px;
+                    transition: 0.5s;
+                }
+
+            .button:hover span {
+                padding-right: 25px;
+            }
+
+                .button:hover span:after {
+                    opacity: 1;
+                    right: 0;
+                }
+    </style>
+</head>
+<body>
+         <section>
+            
+             <img src="~/image/Logobig21.jpg">
+             <pre style="padding-top:0%;">
+             
+                 <button class="button" style="vertical-align:middle"><span> To read more About redPEPPER events</span></button>
+
+                 <p style="font-family:'Bell MT'; font-size:larger; padding-top:0%;"> 
+redPEPPER events uses only the best caterers for our events!
+Let us become your preferred catering company of choice for food that is tasty, delicious and enjoyed by all.
+redPEPPER events not only guarantees a unique taste sensation but can also add an interesting twist
+to your next function. You could have a themed evening,
+team building exercise with hands-on sushi lessons, a beautiful high tea, or simply delicious fusion food.
+A Johannesburg Caterer with a highly organized team will consult with you, tailoring the menu to suit
+your needs, the occasion and your budget. Contact 
+        </p>
+</pre>
+        </section>
+
+    <B><i><h2>Contact Details</h2></i></B>
+    <table style="width:100%">
+        <tr>
+
+            <td>
+                <strong>Cell:</strong>
+                <a>071-408-1844 (Zaheerah)</a>
+
+            </td>
+
+            <td>
+                <strong>Cell:</strong>
+                <a>084-605-1925 (Sindiswe)</a>
+
+            </td>
+            <td>
+                <strong>Cell:</strong>
+                <a>061-796-8857 (Nqabagazi)</a>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Zkamaar@jhb.dvt.co.za">Zkamaar@jhb.dvt.co.za</a>
+
+            </td>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Smashinini@jhb.dvt.co.za">Smashinini@jhb.dvt.co.za</a>
+
+            </td>
+            <td>
+                <strong>E-mail:</strong>
+                <a href="Nhlamvana@jhb.dvt.co.za">Nhlamvana@jhb.dvt.co.za</a>
+
+            </td>
+        </tr>
+        <br />
+
+        <u><h4>Please enter your details below. We would love to hear from you!</h4>
+
+    </table>
+    
+    
+</body>
+</html>

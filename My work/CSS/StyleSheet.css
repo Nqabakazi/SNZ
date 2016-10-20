@@ -210,6 +210,60 @@ aside{
     position:absolute; top:50px;
 
 }
+section{
+    display:block;
+}
+.Container{
+    width:710px;
+    margin-top:30px auto 0;
+    align-content:center;
+}
+#content2{
+    background:linear-gradient( to top ,#ffe6e6% ,#F3CFE8 0%, #8F2B6F 100%);
+      background:-webkit-linear-gradient(bottom ,#F3CFE8 0% ,#8F2B6F 0%, #ffe6e6% 100%);
+      padding-top:60px;
+          padding-bottom:30px;
+          overflow:hidden;
+}
+
+.gallaryHolder 
+{
+    border: 5px solid;
+    border-color:#ffe6e6;
+    height: 200px;
+    width: 160px;
+    margin-left:50px;
+    padding-left:100px;
+
+}
+
+
+.gallery{
+    width:689px;
+    margin-top:auto;
+}
+.gallery ul{
+    list-style:none;
+}
+.gallery li{
+    float:left;
+    margin:10px;
+    
+}
+
+.gallery img 
+{
+    display: block;
+    /* padding: 5px; */
+    border: 1px solid;
+    box-shadow: #adad85;
+    width: 150px;
+    height: 126px
+}
+gallery img :hover{
+    border:1px;
+    cursor:pointer;
+}
 
 
 

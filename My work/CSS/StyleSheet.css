@@ -178,7 +178,7 @@ h3 { font-size:15px; line-height:18px; color:white; text-transform: uppercase; }
 .Center {
     font-style:italic;
     font-size:x-large;
-    text-align:center;
+    text-align:left;
 }
 .active{
 font-family:'Arial Rounded MT';
@@ -201,13 +201,13 @@ aside{
     float: right;
     padding: 20px;
     direction:ltr;
-    position: absolute; top:200px; right:160px;
+    position: absolute; top:180px; right:160px;
     font-size:larger;
     font-family:'Bell MT';
 }
 .center{
     float:right; top:90px; right :90px;
-    position:absolute; top:50px;
+    position:absolute; top:50px;direction:ltr;
 
 }
 section{
@@ -263,6 +263,15 @@ section{
 gallery img :hover{
     border:1px;
     cursor:pointer;
+}
+.aside2{
+display: inline;
+    float: right;
+    padding: 20px;
+    direction:ltr;
+    position: absolute; top:290px; right:160px;
+    font-size:larger;
+    font-family:'Bell MT';
 }
 
 

@@ -142,7 +142,8 @@
     .cl { font-size:0; line-height:0; clear:both; display:block; height:0; }
 
 .al { text-align: left; }
-.ar { text-align: right; }
+.ar { text-align: right; float:right; position:inherit;direction:rtl;
+}
 .ac { text-align: center; }
 
 h3 { font-size:15px; line-height:18px; color:white; text-transform: uppercase; }
@@ -194,6 +195,20 @@ font-family:'Arial Rounded MT';
     font-size:20px;
     align-self:flex-end;
     border-top-left-radius:4px;
+}
+aside{
+    display: inline;
+    float: right;
+    padding: 20px;
+    direction:ltr;
+    position: absolute; top:200px; right:160px;
+    font-size:larger;
+    font-family:'Bell MT';
+}
+.center{
+    float:right; top:90px; right :90px;
+    position:absolute; top:50px;
+
 }
 
 

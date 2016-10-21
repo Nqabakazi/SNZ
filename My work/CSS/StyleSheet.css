@@ -246,7 +246,7 @@ section{
     list-style:none;
 }
 .gallery li{
-    float:left;
+    float:right ;
     margin:10px;
     
 }
@@ -258,11 +258,13 @@ section{
     border: 1px solid;
     box-shadow: #adad85;
     width: 150px;
-    height: 126px
+    height: 126px;
+    
 }
 gallery img :hover{
     border:1px;
     cursor:pointer;
+    
 }
 .aside2{
 display: inline;

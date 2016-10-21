@@ -13,7 +13,7 @@ namespace My_work.Controllers
         {
             return View();
         }
-        public ActionResult Gallary()
+        public ActionResult Gallery()
         {
             return View();
         }

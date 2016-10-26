@@ -9,13 +9,14 @@
 }
 
 
-		h1 {
+		h2 {
+            font-family:'Bell MT';
 			margin-bottom: 20px;
 			color: #fff;
 			text-transform: uppercase;
-			font-size: 55px;
+			font-size: 30px;
 			font-weight: 100;
-			letter-spacing: 30px;
+			letter-spacing: 10px;
 			text-shadow: 3px 3px 5px #000;
 
 		}
@@ -182,18 +183,18 @@ h3 { font-size:15px; line-height:18px; color:white; text-transform: uppercase; }
     text-align:left;
 }
 .active{
-font-family:'Arial Rounded MT';
+font-family:'Bell MT';
     color:#161515;
     table-layout:fixed;
-    font-size:20px;
+    font-size:larger;
     align-self:flex-start;
     border-top-left-radius:4px;
 }
 .last{
-    font-family:'Arial Rounded MT';
+    font-family:'Bell MT';
     color:#161515;
     table-layout:fixed;
-    font-size:20px;
+    font-size:larger;
     align-self:flex-end;
     border-top-left-radius:4px;
 }
@@ -209,6 +210,9 @@ aside{
 .center{
     float:right; top:90px; right :90px;
     position:absolute; top:50px;direction:ltr;
+    font:18px;
+
+
 
 }
 section{
@@ -272,7 +276,7 @@ display: inline;
     float: right;
     padding: 20px;
     direction:ltr;
-    position: absolute; top:290px; right:160px;
+    position: absolute; top:230px; right:480px;
     font-size:larger;
     font-family:'Bell MT';
 }
@@ -306,6 +310,15 @@ display: inline;
     font-size:larger;
     font-family:'Bell MT';
 }
+.button1 {
+    background-color:none;
+    color: black;
+    align-items:center;
+
+
+}
+
+
 
 
 

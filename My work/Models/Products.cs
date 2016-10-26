@@ -12,7 +12,7 @@ namespace My_work.Models
         public string ProductName { get; set; }
         public string ProductDiscription { get; set; }
         public double ProPrice { get; set; }
-        public int ItemNumber { get; set; }
+        public string ItemNumber { get; set; }
 
 
     }

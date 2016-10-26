@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using My_work.Models;
 
 namespace My_work.Controllers
 {
     public class HomeController : Controller
     {
+        public static ProductDetails productInfo = new ProductDetails();
+
         // GET: Home
         public ActionResult Index()
         {
@@ -29,5 +32,24 @@ namespace My_work.Controllers
         {
             return View();
         }
+        public ActionResult Products(string ItemNum)
+        {
+            productInfo.ProInfo();
+            return View(productInfo.getProInfo(ItemNum));
+        }
+
+
+
+        public ActionResult ProductDetails()
+        {
+
+            productInfo.ProInfo();
+            return View(productInfo.pro);
+
+           
+        }
+
+
+
     }
 }

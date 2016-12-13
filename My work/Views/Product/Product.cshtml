@@ -1,9 +1,9 @@
 ﻿@model IEnumerable<My_work.Models.Products>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @*@Html.ActionLink("Create New", "Create")*@
 </p>
-<table class="table">
+<table class="SINDI">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.ProductName)
@@ -17,7 +17,7 @@
         <th>
             @Html.DisplayNameFor(model => model.ItemNumber)
         </th>
-        <th></th>
+        
     </tr>
 
 @foreach (var item in Model) {

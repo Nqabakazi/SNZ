@@ -132,6 +132,7 @@
     <Content Include="Images\about4.png" />
     <Content Include="Images\big kids.jpg" />
     <Content Include="Images\black-and-white-dining-area.jpg" />
+    <Content Include="Images\Cart.png" />
     <Content Include="Images\catering2.jpg" />
     <Content Include="Images\catering5.JPG" />
     <Content Include="Images\church-wedding-decorations-2.jpg" />
@@ -149,6 +150,7 @@
     <Content Include="Images\Logobig221.png" />
     <Content Include="Images\marry.jpg" />
     <Content Include="Images\meat and salad 1.jpg" />
+    <Content Include="Images\metallic-add-to-cart-button-icon-set-23146317.jpg" />
     <Content Include="Images\miller.png" />
     <Content Include="Images\Newone.png" />
     <Content Include="Images\party2.png" />
@@ -194,6 +196,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartDetails.cs" />
+    <Compile Include="Models\CartItems.cs" />
     <Compile Include="Models\ProductDetails.cs" />
     <Compile Include="Models\Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -208,7 +212,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
-    <Content Include="Views\Home\Product.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
@@ -216,9 +219,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Product\Product.cshtml" />
     <Content Include="Views\Home\ProductDetails.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
+    <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Home\CartItems.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -228,6 +232,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
